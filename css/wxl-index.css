@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.wxl-container {
+  width: 100%;
+  height: auto;
+}
+.wxl-container .wxl-conbox {
+  width: 100%;
+  overflow: hidden;
+}
+.wxl-container .wxl-conbox .wxl-inside {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+  border: 1px solid #E5E5E5;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box {
+  padding: 0 35px;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top {
+  width: 375px;
+  margin: 0 auto;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top .first-one {
+  width: 100%;
+  height: 85px;
+  background: blue;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top .first-one img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top p {
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #776457;
+  text-align: center;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top .wxl-line {
+  width: 100%;
+  height: 1px;
+  background: #EAEAEA;
+  margin-top: 20px;
+  position: relative;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top .wxl-line .wxl-left-circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #b8b8b8;
+  position: absolute;
+  left: 0;
+  top: -2.5px;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top .wxl-line .wxl-right-circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #b8b8b8;
+  position: absolute;
+  right: 0;
+  top: -2.5px;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top .wxl-line .wxl-red {
+  width: 45px;
+  height: 5px;
+  background: #A02024;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -2.5px;
+  border-radius: 10px;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top .wxl-p {
+  font-size: 10px;
+  color: #A8A8A8;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-box .wxl-top .wxl-ji {
+  margin-top: 30px!important;
+  width: 30px;
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+  background: url("../imgs/jian.png") center center no-repeat / cover;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second {
+  margin-top: 78px;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-sein {
+  width: 760px;
+  height: 85px;
+  background: red;
+  margin: 0 auto;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-sein .wxl-white {
+  display: block;
+  width: 3px;
+  height: 64px;
+  background: #DFDFDF;
+  margin-top: 10px;
+  float: left;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-sein li {
+  display: block;
+  width: 237px;
+  height: 85px;
+  margin: 0 6px;
+  background: blue;
+  float: left;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text {
+  width: 1030px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 20px!important;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li {
+  width: 330px;
+  height: 540px;
+  background: #fff;
+  float: left;
+  margin: 10px 10px 10px 5px;
+  transition: all .8s ease;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li .wxl-a {
+  display: block;
+  margin: 20px;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li .wxl-a img {
+  display: block;
+  width: 289px;
+  height: 289px;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li .wxl-a h2 {
+  font-size: 24px;
+  color: #828282;
+  margin-top: 20px;
+  font-weight: normal;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li .wxl-a p {
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #BCBCBC;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li .wxl-a p span {
+  margin-left: 5px;
+  font-weight: normal;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li .wxl-a i {
+  font-style: normal;
+  margin: 20px 35px 0 0;
+  font-size: 12px;
+  color: #000;
+  line-height: 1.5;
+  display: block;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li .wxl-a .wxl-wen {
+  font-style: normal;
+  margin: 20px 25px 0 0;
+  font-size: 12px;
+  color: #C8C8C8;
+  line-height: 1.5;
+  display: block;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li .wxl-a .wxl-yi {
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+  background: url("../imgs/ji2.png") center center no-repeat / cover;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li:hover {
+  box-shadow: -3px 3px 10px 6px #F0F0F0;
+}
+.wxl-container .wxl-conbox .wxl-inside .wxl-second .wxl-text li:nth-child(3n) {
+  margin-right: 0;
+}
+.wxl-container .wxl-conbox .wxl-page {
+  width: 100%;
+  margin-top: 50px;
+  height: 30px;
+  text-align: center;
+}
+.wxl-container .wxl-conbox .wxl-page .wxl-pagein {
+  display: inline-block;
+}
+.wxl-container .wxl-conbox .wxl-page .wxl-pagein .wxl-page-left {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  background: #A02024;
+  margin-right: 8px;
+}
+.wxl-container .wxl-conbox .wxl-page .wxl-pagein .wxl-page-left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wxl-container .wxl-conbox .wxl-page .wxl-pagein .wxl-page-right {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  background: #A02024;
+  margin-right: 8px;
+  margin-left: 30px;
+}
+.wxl-container .wxl-conbox .wxl-page .wxl-pagein .wxl-page-right img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wxl-container .wxl-conbox .wxl-page .wxl-pagein li {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  color: #9B9380;
+  line-height: 17px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-top: 6.5px;
+  font-size: 10px;
+}
+.wxl-container .wxl-conbox .wxl-page .wxl-pagein .wxl-myinput {
+  margin-left: 20px;
+  width: 60px;
+  height: 25px;
+  border: 1px solid #9F9680;
+  border-radius: 15px;
+  margin-top: 2.5px;
+  line-height: 25px;
+  text-align: center;
+  color: #6F6240;
+  float: left;
+}
+.wxl-container .wxl-conbox .wxl-page .wxl-pagein .wxl-button {
+  margin-left: 12px;
+  width: 25px;
+  height: 25px;
+  margin-top: 2.5px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFF124;
+  font-size: 10px;
+  float: left;
+}
+.wxl-container .wxl-conbox .wxl-redline {
+  width: 1030px;
+  height: 10px;
+  background: #A02024;
+  margin: 0 auto;
+  margin-top: 80px!important;
+  margin-bottom: 30px!important;
+}
